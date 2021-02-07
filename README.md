@@ -1,6 +1,6 @@
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/descendant-xi/manifests.git -b eleven-staging
+	repo init -u https://github.com/AscendantROM/manifest.git -b eleven-staging
 
  Then to sync up:
 
@@ -8,17 +8,20 @@ To initialize your local repository, use this command:
 repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
-Build Descendant
+Build Ascendant
 ==================
 
 ```bash
 source build/envsetup.sh
 
-lunch descendant_codename-buildtype
+lunch ascendant_codename-buildtype
 
-mka descendant
+mka ascendant
 ```
+Credits
+==================
+Special thanks to the following ROMs for making ascendant possible:
 
-Thanks to POSP and specifically Kshitij Gupta for supporting us in using POSP early AOSP bring-up as our "hardware equipped AOSP base".
-
-If you have an issue with syncing or building feel free to reach out at https://t.me/descendant_device_support
+- Descendant
+- POSP
+- Project Fluid
