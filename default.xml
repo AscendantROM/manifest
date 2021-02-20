@@ -30,6 +30,10 @@
            fetch="https://github.com/ArrowOS"
            revision="refs/heads/arrow-11.0" />
 
+  <remote name="ascendant"
+          fetch="https://github.com/AscendantROM"
+          revision="refs/heads/eleven-staging" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
