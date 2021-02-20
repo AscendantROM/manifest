@@ -5,7 +5,7 @@
   <!-- Build repos -->
   <project name="bionic"          path="bionic"           remote="potato" />
   <project name="build_blueprint" path="build/blueprint"  remote="potato" groups="pdk,tradefed" />
-  <project name="build_make"      path="build/make"       remote="descendant" groups="pdk" >
+  <project name="build_make"      path="build/make"       remote="ascendant" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />
     <linkfile src="CleanSpec.mk"         dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,7 +31,7 @@
 
   <!-- Framework repos -->
   <project name="frameworks_av"            path="frameworks/av"            remote="potato" />
-  <project name="frameworks_base"          path="frameworks/base"          remote="descendant" branch="eleven-staging" />
+  <project name="frameworks_base"          path="frameworks/base"          remote="ascendant" branch="eleven-staging" />
   <project name="frameworks_native"        path="frameworks/native"        remote="potato" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="potato" />
   <project name="frameworks_opt_net_wifi"  path="frameworks/opt/net/wifi"  remote="potato" />
@@ -43,7 +43,7 @@
   <project name="packages_apps_Launcher3"       path="packages/apps/Launcher3"       remote="descendant" />
   <project name="packages_apps_Nfc"             path="packages/apps/Nfc"             remote="potato" />
   <project name="packages_apps_PermissionController" path="packages/apps/PermissionController" remote="descendant"/>
-  <project name="packages_apps_Settings"        path="packages/apps/Settings"        remote="descendant" />
+  <project name="packages_apps_Settings"        path="packages/apps/Settings"        remote="ascendant" />
   <project name="packages_apps_SettingsIntelligence"        path="packages/apps/SettingsIntelligence"        remote="descendant" />  
   <project name="packages_apps_Settings_DescendantHealth"        path="packages/apps/Settings/DescendantHealth"        remote="descendant" />
   <project name="packages_apps_ThemePicker"     path="packages/apps/ThemePicker"     remote="descendant" />
@@ -95,7 +95,7 @@
   <project name="vendor_qcom_opensource_vibrator"      path="vendor/qcom/opensource/vibrator"                remote="potato-next"/>
   <project name="vendor_qcom_opensource_usb"           path="vendor/qcom/opensource/usb"                     remote="potato-next"/>
   <project name="vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="potato-next" />
-  <project name="vendor_descendant"                          path="vendor/descendant"                       remote="descendant" />
+  <project name="vendor_ascendant"                          path="vendor/ascendant"                       remote="ascendant" />
   <project name="vendor_support"                          path="vendor/support"                       remote="descendant" />
-  <project name="vendor_themes"                          path="vendor/themes"                       remote="descendant" />
+  <project name="vendor_themes"                          path="vendor/themes"                       remote="ascendant" />
 </manifest>
