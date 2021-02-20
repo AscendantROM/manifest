@@ -19,7 +19,7 @@
           revision="refs/heads/eleven-staging" />
 
   <remote name="devices"
-          fetch="https://github.com/Descendant-Devices"
+          fetch="https://github.com/Ascendant-devices"
           revision="refs/heads/eleven" />
 
   <remote name="lineage"
