@@ -63,6 +63,7 @@
   <project name="external_selinux"      path="external/selinux"      remote="potato" />
   <project name="external_json-c"       path="external/json-c"       remote="potato" />
   <project name="external_libcxx"       path="external/libcxx"       remote="potato" />
+  <project name="external_motorola_faceunlock"       path="external/motorola/faceunlock"       remote="ascendant" />
 
   <!-- Prebuilt repos -->
   <project name="prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="potato" clone-depth="1" />
