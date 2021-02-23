@@ -25,3 +25,5 @@ Special thanks to the following ROMs for making ascendant possible:
 - Descendant
 - POSP
 - Project Fluid
+- DotOS
+- ExtendedUI
